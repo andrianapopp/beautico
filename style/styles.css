@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.faq {
+    padding: 128px 0 160px;
+    background-color: #F3F5F7;
+}
+.right_column {
+    max-width: 511px;
+}
+.right_left{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1280px;
+}
+
+.right_column h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #202939;
+    margin-bottom: 27px;
+    text-align: left;
+}
+
+.right_column p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #697586;
+    margin-bottom: 37px;
+}
+
+.right_column a {
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #202939;
+    padding: 17px 33px;
+    background: #FFFFFF;
+    border: 1px solid #CDD5DF;
+    border-radius: 64px;
+    transition: 0.5s;
+}
+
+.right_column a:hover {
+    background-color: #CF4D74;
+    border: 1px solid #CF4D74;
+    color: #FFFFFF;
+}
+
+.faqs{
+    max-width: 686px;
+}
+
+.ui-accordion .ui-accordion-header {
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 23px 25px 24px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #202939;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border: 1px solid #E3E8EF;
+}
+
+.ui-accordion .ui-accordion-content {
+    margin-bottom: 10px;
+    border: 1px solid #E3E8EF;
+    border-radius: 8px;
+}
+
+.ui-accordion .ui-accordion-content p {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    line-height: 27px;
+    color: #697586;
+}
+
+
+.ui-icon{
+    background-image: none;
+    background-position: 0;
+    text-indent: 0;
+    margin: 0;
+    overflow: unset;
+    display: inline-block;
+}
+.ui-icon:after{
+    font-weight: 400;
+    font-family: "Font Awesome 6 Free";
+    content: "\2b";
+}
+.ui-accordion .ui-accordion-header.ui-state-hover .ui-icon{
+    background-image: none;
+}
+
+.ui-accordion-header.ui-state-active .ui-icon{
+    transform: rotate(45deg);
+    transition: 0.5s;
+}
+

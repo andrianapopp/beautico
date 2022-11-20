@@ -1,0 +1,11 @@
+
+
+@media only screen and (max-width: 767px) {
+
+    .right_left{
+        flex-direction: column;
+    }
+    .right_column a{
+        margin-bottom: 50px;
+    }
+}
